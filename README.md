@@ -32,3 +32,58 @@ A cloud-based shopping list web application that allows users to create, manage,
 
 ```bash
 git clone https://github.com/TSRSriraga/Cloud-Based-Shopping-List.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Cloud-Based-Shopping-List
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the application
+
+```bash
+npm start
+```
+
+The application will run at:
+
+`http://localhost:3000`
+
+## Project Structure
+
+```text
+shopping-list/
+├── public/
+├── src/
+│   ├── AddItem.js
+│   ├── App.js
+│   ├── ItemList.js
+│   ├── Login.js
+│   ├── ShareList.js
+│   ├── Signup.js
+│   ├── SideMenu.js
+│   └── firebase.js
+├── package.json
+├── package-lock.json
+├── README.md
+└── vercel.json
+```
+
+## Deployment
+
+The application is deployed using Vercel.
+
+## Project Purpose
+
+The Cloud-Based Shopping List provides a convenient way for users to manage shopping items from different devices while keeping the data synchronized through cloud services.
+
+## Author
+
+**TSRSriraga**
